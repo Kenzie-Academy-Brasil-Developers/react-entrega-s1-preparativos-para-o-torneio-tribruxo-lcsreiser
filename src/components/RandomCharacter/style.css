@@ -1,0 +1,27 @@
+div {
+  text-align: center;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  background-color: #898989;
+  margin: 10px 0px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #1f1f1f;
+}
+
+@media (min-width: 1024px) {
+  ul {
+    flex-direction: row;
+  }
+}
