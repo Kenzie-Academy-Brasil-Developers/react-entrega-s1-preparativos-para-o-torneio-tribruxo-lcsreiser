@@ -15,6 +15,7 @@ const Random = ({ characters }) => {
       const newFilter = characters.filter(
         (item) => item.house === houses[randomHouse]
       );
+      console.log(newFilter);
       const randomNumber = Math.floor(Math.random() * newFilter.length);
       houses.splice(randomHouse, 1);
       arrayStudents = [...arrayStudents, newFilter[randomNumber]];

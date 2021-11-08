@@ -23,5 +23,6 @@ ul {
 @media (min-width: 1024px) {
   ul {
     flex-direction: row;
+    margin-top: 70px;
   }
 }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import Random from "./components/RandomCharacter";
+import Random from "./components/Students";
 import "./App.css";
 
 function App() {
