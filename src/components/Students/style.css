@@ -20,9 +20,18 @@ ul {
   background-color: #1f1f1f;
 }
 
+h4 {
+  color: #d5d1d1;
+  margin: 20px;
+}
+
 @media (min-width: 1024px) {
   ul {
     flex-direction: row;
     margin-top: 70px;
+  }
+
+  h4 {
+    font-size: 2.3rem;
   }
 }

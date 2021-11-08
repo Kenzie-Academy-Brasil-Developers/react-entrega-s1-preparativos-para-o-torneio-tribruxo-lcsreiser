@@ -25,12 +25,16 @@ const Random = ({ characters }) => {
 
   return (
     <div>
-      <button onClick={randomCharacter}>Clique para sortear!!</button>
+      <h4>
+        Seja bem vindo ao torneio TriBruxo da Kenzie Acadamy, clique no botão
+        abaixo e veja quais são os selecionados para esta disputa!!
+      </h4>
       <ul>
         {students.map((student, index) => (
           <Card key={index} students={student} index={index} />
         ))}
       </ul>
+      <button onClick={randomCharacter}>Clique para sortear!!</button>
     </div>
   );
 };
